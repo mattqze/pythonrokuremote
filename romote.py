@@ -3,7 +3,7 @@ from pynput import keyboard
 from pynput.keyboard import Key
 #Provide Roku device's IP here
 #This program assumes the Roku is OFF
-rokuip = "192.168.50.155"
+rokuip = "YOURROKUIP"
 rokuip = "http://" + rokuip + ":8060"
 def on_key_release(key):
     if key == Key.right:
